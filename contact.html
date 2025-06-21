@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <style>
+    @keyframes popIn {
+      from {
+        transform: scale(0.95);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+    .page-enter {
+      animation: popIn 0.6s ease-out;
+    }
+    html, body {
+    height: 100%;
+    }
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-pink-100 text-gray-800">
+<nav class="bg-pink-300 p-4 shadow-md flex justify-between">
+    <h1 class="font-bold text-xl">Koalaa sweettt seventeen</h1>
+    <div class="space-x-4">
+      <a href="index.html" class="hover:underline font-bold">Home</a>
+      <a href="gallery.html" class="hover:underline">Gallery</a>
+      <a href="quotes.html" class="hover:underline">Quotes</a>
+      <a href="contact.html" class="hover:underline">Contact</a>
+    </div>
+  </nav>
+
+  <section class="flex flex-col items-center justify-center h-[80vh] text-center px-4">
+    <h2 class="text-3xl font-bold text-pink-700 mb-4">Mau bilang sesuatu ke aku?</h2>
+    <p class="mb-6">Klik tombol di bawah ini yaa~</p>
+    <a href="https://wa.me/6282172098602" class="bg-pink-500 text-white px-6 py-3 rounded-full hover:bg-pink-600 transition">
+      Chat ajaaa yaaa sayangggg 💬
+    </a>
+  </section>
+</body>
+</html>
